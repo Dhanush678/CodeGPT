@@ -1,4 +1,4 @@
-package com.bdtopcoder.chatgpt;
+package com.codeGPT.chatgpt;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.bdtopcoder.chatgpt", appContext.getPackageName());
+        assertEquals("com.codeGPT.chatgpt", appContext.getPackageName());
     }
 }

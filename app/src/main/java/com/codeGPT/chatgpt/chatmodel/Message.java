@@ -1,4 +1,4 @@
-package com.bdtopcoder.chatgpt.chatmodel;
+package com.codeGPT.chatgpt.chatmodel;
 
 public class Message {
 

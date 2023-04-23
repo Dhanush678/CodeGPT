@@ -1,4 +1,4 @@
-package com.bdtopcoder.chatgpt;
+package com.codeGPT.chatgpt;
 
 import org.junit.Test;
 

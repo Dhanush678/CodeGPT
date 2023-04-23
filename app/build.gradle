@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.bdtopcoder.chatgpt'
+    namespace 'com.codeGPT.chatgpt'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.bdtopcoder.chatgpt"
+        applicationId "com.codeGPT.chatgpt"
         minSdk 21
         targetSdk 33
         versionCode 1

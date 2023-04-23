@@ -1,4 +1,4 @@
-package com.bdtopcoder.chatgpt;
+package com.codeGPT.chatgpt;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,10 +8,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 
-import com.bdtopcoder.chatgpt.chatmodel.Message;
-import com.bdtopcoder.chatgpt.chatmodel.MessageAdapter;
+import com.codeGPT.chatgpt.R;
+import com.codeGPT.chatgpt.chatmodel.Message;
+import com.codeGPT.chatgpt.chatmodel.MessageAdapter;
 
 import org.json.JSONArray;
 import org.json.JSONException;
