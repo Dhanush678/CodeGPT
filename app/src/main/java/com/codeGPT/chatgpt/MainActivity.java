@@ -5,11 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
-import com.codeGPT.chatgpt.R;
 import com.codeGPT.chatgpt.chatmodel.Message;
 import com.codeGPT.chatgpt.chatmodel.MessageAdapter;
 
@@ -44,6 +47,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ImageButton img=findViewById(R.id.help);
+        img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),apikey.class));
+                finish();
+
+            }
+        });
 
         //====================================
         message_text_text = findViewById(R.id.message_text_text);

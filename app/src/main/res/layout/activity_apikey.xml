@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#474747"
+
+    tools:context=".apikey">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:background="@drawable/edit_text_bg"
+        android:layout_margin="20dp"
+
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="If there is any error from the AI response as the HTML response error, As similar to the Image given below  and following can be handled using the following steps,please follow these
+"
+            android:padding="20dp"
+            android:fontFamily="@font/averia_libre"
+            android:textSize="23dp">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/edit_text_bg"
+        android:layout_margin="20dp"
+
+        android:padding="20dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/error"
+            android:padding="20dp"
+          >
+
+        </ImageView>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+android:text="1) Go to the OpenAI website and click on the “Sign up“ button in the top right corner.\n\n2) Enter your email address and create a password, then click “Sign up“.
+\n\n3) Once you've signed up, you'll be prompted to complete the verification process. This involves providing some personal information and answering a few questions about your intended use of the API.\n\n4) Once your verification is complete, you'll be able to generate an API key. Go to the API Keys page and click “Generate API Key“. You'll be given a unique key that you can use to access the OpenAI API."
+            android:padding="20dp"
+            android:fontFamily="@font/averia_libre"
+
+            android:textSize="20dp">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg"
+        android:layout_margin="20dp"
+
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+android:text="Note that there may be additional steps or requirements depending on your intended use of the API, such as signing an agreement or providing proof of identity. You can find more information about the OpenAI API and the signup process on the OpenAI website."
+            android:padding="20dp"
+            android:fontFamily="@font/averia_libre"
+            android:textSize="20dp">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
